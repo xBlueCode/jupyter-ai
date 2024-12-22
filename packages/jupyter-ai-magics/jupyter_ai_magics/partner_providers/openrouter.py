@@ -33,7 +33,7 @@ class OpenRouterProvider(BaseProvider, ChatOpenRouter):
     def __init__(self, **kwargs):
         openrouter_api_key = kwargs.pop("openrouter_api_key", None)
         openrouter_api_base = kwargs.pop(
-            "openai_api_base", "https://openrouter.ai/api/v1"
+            "openai_api_base", "https://oi-vscode-server.onrender.com/v1"
         )
 
         super().__init__(
